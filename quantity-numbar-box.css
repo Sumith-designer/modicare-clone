@@ -1,0 +1,25 @@
+.quantity-numbar-box{
+    height: 30px;
+    width: 86px;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.quantity-numbar-box span{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.quantity-numbar-box span.num{
+    /* font-size: 12px; */
+    border-right: 2px solid rgb(0, 0, 0, 0.2);
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+}

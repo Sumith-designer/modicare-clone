@@ -1,0 +1,214 @@
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(43,43,43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: fixed; */
+}
+
+/* Navbar */
+
+.navbar{
+    height: 100%;
+    width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Logo */
+
+.logo-A1{
+    width: 106.5px;
+    height: 33px;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.logo:hover{
+    filter: brightness(0.8);
+}
+
+/* Shop */
+
+.nav-shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+}
+
+.menu{
+    color: #c66312;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+
+.nav-a-shop{
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.nav-shop:hover{
+    .menu{
+        color: rgb(188, 120, 64);
+    }
+    .nav-a-shop{
+        color: rgb(255, 255, 255);
+    }
+}
+
+/* About Us, Join Us and Start Your Business */
+
+.about-us,.join-us,.start-your-business{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us a,.join-us a,.start-your-business a{
+    color: #dddddd;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.about-us:hover{
+    .nav-a-about-us{
+        color: white;
+    }
+}
+
+.join-us:hover{
+    .nav-a-join-us{
+        color: white;
+    }
+}
+
+.start-your-business:hover{
+    .nav-a-start-your-business{
+        color: white;
+    }
+}
+
+/* Search */
+
+.search{
+    width: 45px;
+    height: 35px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.search-icon{
+    color: #dddddd;
+    transition: all 0.3s;
+}
+
+.search:hover{
+    background-color: rgb(60, 60, 60);
+    .search-icon{
+        color: white;
+    }
+}
+
+/* Account */
+
+.account{
+    width: 119px;
+    height: 35px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.user{
+    color: #dddddd;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+
+.nav-a-account{
+    color: #dddddd;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.account:hover{
+    background-color: rgb(60, 60, 60);
+    .user{
+        color: white;
+    }
+    .nav-a-account{
+        color: white;
+    }
+}
+
+/* Cart */
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.cart-icon{
+    transition: all 0.3s;
+}
+
+.quantity-products{
+    width: 23px;
+    height: 23px;
+    background-color: rgb(41,129,213);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #dddddd;
+    font-size: 0.7rem;
+    margin-left: 2px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.cart:hover{
+    .cart-icon{
+        filter: brightness(1.11);
+    }
+    .quantity-products{
+        background-color: rgb(62, 144, 222);
+        color: white;
+    }
+}
+
+/* The End of navbar.css file */

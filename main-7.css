@@ -1,0 +1,65 @@
+.main-7{
+    width: 100%;
+    background-color: rgb(247,249,252);
+    /* background-color: aquamarine; */
+}
+
+.guarantee-container{
+    width: 800px;
+    margin: 40px 0;
+    /* flex-wrap: wrap; */
+    /* background-color: blanchedalmond; */
+}
+
+.certified-container,
+.satisfaction-guarantee-container,
+.stores-near-you-container
+{
+    max-width: 33.3333%;
+    /* background-color: aqua; */
+    margin: 0 25px;
+}
+
+.certified-container-img-block{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.get-certified{
+    height: 150px;
+}
+
+.satisfaction-guarantee{
+    width: 210px;
+    height: 150px;
+}
+
+.stores-near-you{
+    width: 91.65;
+    height: 91.31;
+}
+
+.certified-text-h1{
+    margin: 15px 0;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.certified-text-p{
+    text-align: center;
+    font-size: 13px;
+    margin: 15px 0;
+}
+
+.certified-more-opition{
+    margin: 5px 0;
+}
+
+.satisfaction-guarantee-img-block{
+    margin-top: 52px;
+}
+
+.stores-near-you-img-block{
+    margin-top: 70px;
+}

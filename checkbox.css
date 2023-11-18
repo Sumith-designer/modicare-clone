@@ -1,0 +1,64 @@
+/* checkbox css style file */
+
+.check-box{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.point-check{
+    height: 20px;
+    width: 20px;
+    background-color: #d5d5d5;
+    appearance: none;
+    border-radius: 4px;
+    border: 1px solid #61b1fb;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s;
+}
+
+.check-box label{
+    color: #000;
+    font-size: 17px;
+    /* font-family: 'Poppins',sans-serif; */
+    font-weight: 300;
+    cursor: pointer;
+    /* padding-left: 15px; */
+}
+
+.check-box a{
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: none;
+    color: #2981d5;
+}
+
+.point-check::after{
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    content: "\f00c";
+    font-size: 14px;
+    color: white;
+    display: none;
+    transition: all 0.3s;
+}
+
+.point-check:hover{
+    background-color: #a5a5a5;
+}
+
+.point-check:checked{
+    background-color: #61b1fb;
+}
+
+.point-check:checked::after{
+    display: block;
+}

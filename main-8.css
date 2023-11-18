@@ -1,0 +1,185 @@
+.main-8{
+    width: 100%;
+}
+
+.form-section{
+    width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px 0;
+}
+
+.form-section h1{
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.form-section p{
+    font-size: 16px;
+    width: 467px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.form{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.switch-secion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.switch-div{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-switch-text1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+}
+
+.form-switch-text2{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+}
+
+.two-containers-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 950px;
+    margin-bottom: 14px;
+}
+
+.submit{
+    width: 17%;
+    min-height: 36px;
+    font-size: 100%;
+    font-weight: 400;
+    margin-top: 40px;
+    border-radius: 24px;
+    border: none;
+    background-color: #2196F3;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.social-media-accounts{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.media-accounts{
+    width: 48px;
+    height: 48px;
+    /* background-image: url("instagram.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.instagram{
+    background-image: url("instagram.png");
+}
+
+.facebook{
+    background-image: url("facebook.png");
+}
+
+.youtube{
+    background-image: url("youtube.png");
+}
+
+.linkedin{
+    background-image: url("linkedin.png");
+}
+
+.contact-us{
+    width: 18%;
+    min-height: 40px;
+    font-size: 100%;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    background-color: #2196F3;
+    border-radius: 24px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}

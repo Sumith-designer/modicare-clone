@@ -1,0 +1,27 @@
+@media only screen and (max-width: 950px){
+    header,.main-1,.main-2,.main-3,.main-4,.main-5,.main-6,.main-7,.main-8,footer{
+        display: none;
+    }
+    main{
+        display: block;
+    }
+    .moblie-display-container{
+        background-image: url("dark-bg.jpg");
+    }
+}
+@media only screen and (max-width: 600px) {
+    .under-construction-container{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px){
+    .under-construction-svg{
+        width: 700px;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 376px){
+    .moblie-display-container{
+        background-image: url("Windows_11_phone.jpg");
+    }
+}
