@@ -12,11 +12,11 @@
     z-index: -1;
 }
 
-.banner-dilse,.SMAP-2,.jalwa,.hemplab{
+/* .banner-dilse,.SMAP-2,.jalwa,.hemplab{
     width: 100%;
     height: 100%;
-    /* display: none; */
-}
+    display: none;
+} */
 
 .banner-dilse{
     animation: banner-dilse 40s steps(1) 0s infinite normal;
